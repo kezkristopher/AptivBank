@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en" class="light-theme">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--plugins-->
+  <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+
+  <!-- CSS Files -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open Sans:300,300i,400,400i,500,600,700,800&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/vendor/font-awesome.min.css">
+
+  <link href="assets/css/header-colors.css" rel="stylesheet" />
+  <link href="assets/css/dashboard.css" rel="stylesheet" />
+
+  <title>APTIV Bank | Dashboard</title>
+</head>
+
+<body>
+
+
+  <!--start wrapper-->
+  <div class="wrapper">
+
+    <!--start sidebar wrapper-->
+    <div class="mini-sidebar-wrapper">
+      <ul>
+        <li><a href="Dashboard.html">My account</a></li>
+        <li><a href="investment.html">Investments</a></li>
+        <li><a href="wallet.html">Wallet</a></li>
+        <li><a href="transaction.html" class="actives">Transactions</a></li>
+      </ul>
+
+
+    </div>
+    <!--end sidebar wrapper-->
+
+
+
+   <!--start top header-->
+   <header class="top-header">
+    <nav class="navbar navbar-expand gap-3">
+      <div class="mobile-menu-button">
+        <ion-icon name="menu-sharp"></ion-icon>
+      </div>
+      <!-- navbar-area start  -->
+      <div class="row no-phone-display">
+        <div class="col-lg-1">
+          <!-- logo area start -->
+          <div class="brand-logo">
+            <a href="index.html">
+              <!-- <img src="assets/img/logo/logo.png" alt="brand logo"> -->
+              <b style="color: #006b38;font-size:1.2em;font-weight:900;">APTIV</b>
+            </a>
+          </div>
+          <!-- logo area end -->
+        </div>
+        <div class="col-lg-11">
+          <div class="main-menu-inner text-center">
+            <nav class="nav-menu">
+              <ul>
+                <li><a href="Dashboard.html">My Account</a></li>
+                <li><a href="investment.html">Investment</a></li>
+                <li><a href="wallet.html">Wallet</a></li>
+                <li><a href="transaction.html" class="active">Transactions</a></li>
+              </ul>
+            </nav>
+
+          </div>
+        </div>
+      </div>
+      <!-- navbar-area start  -->
+      <div class="top-navbar-right ms-auto">
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item dropdown dropdown-large">
+            <a class="setting nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+              <div class="position-relative">
+               
+                  <ion-icon name="settings"></ion-icon>
+              
+              </div>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end">
+              <a href="javascript:;">
+                <div class="msg-header">
+                  <p class="msg-header-title">Settings</p>
+                 </div>
+              </a>
+              <div class="header-notifications-list">
+                <a class="dropdown-item" href="edit-profile.html">
+                  <div class="d-flex align-items-center">
+                    <div class="notify text-danger"><ion-icon name="person-outline"></ion-icon>
+                    </div>
+                    <div class="flex-grow-1">
+                      <h6 class="msg-name">Edit Profile</h6>
+                   
+                    </div>
+                  </div>
+                </a>
+
+                <a class="dropdown-item" href="verify.html">
+                  <div class="d-flex align-items-center">
+                    <div class="notify text-success"><ion-icon name="document-outline"></ion-icon>
+                    </div>
+                    <div class="flex-grow-1">
+                      <h6 class="msg-name">Verify Account</h6>
+                    </div>
+                  </div>
+                </a>
+                
+              </div>
+            </div>
+          </li>
+
+
+          <li class="nav-item dropdown dropdown-large">
+            <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+              <div class="position-relative">
+                <ion-icon name="notifications-sharp"></ion-icon>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="user-profile.html">
+              <div class="user-setting align-items-center">
+                <img src="assets/images/avatars/06.png" class="user-img" alt="">
+                <b style="margin-left: .5rem;">John Doe</b>
+              </div>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="/index.html" class="log-out">
+              <ion-icon name="log-out"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+  <!--end top header-->
+ 
+
+
+    <!-- start page content wrapper-->
+    <div class="page-content-wrapper">
+      <!-- start page content-->
+      <div class="page-content">
+
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-12 col-xl-9 d-flex">
+            <div class="card radius-10 w-100">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <h6 class="transaction-header" style="color: #1e9481;">Deposits</h6>
+                  <div class="fs-5 ms-auto dropdown">
+                    <div class="arrow">
+                      <!-- <a href="#">
+                      <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </a> -->
+                    </div>
+                    <div class="dropdown-toggle dropdown-toggle-nocaret cursor-pointer" data-bs-toggle="dropdown"><i
+                        class="bi bi-three-dots"></i></div>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="table-responsive mt-2">
+                  <table class="table align-middle mb-0">
+                    <thead class="">
+                      <tr>
+                        <th>Date</th>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                       
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>#89742</td>
+                        <td>
+                          <div class="gap-3">
+                              <h6 class="product-name m-3">Smart Mobile Phone</h6>
+                          </div>
+                        </td>
+                       
+                        <td>$214</td>
+                        <td><span class="badge alert-success">Completed</span></td>
+                        
+                        <td>
+                          <div class="d-flex align-items-center gap-3 fs-6">
+                            <a href="javascript:;" class="text-primary" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                              title="" data-bs-original-title="View detail" aria-label="Views">
+                              <ion-icon name="eye-sharp"></ion-icon>
+                            </a>
+                            <a href="javascript:;" class="text-warning" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                              title="" data-bs-original-title="Edit info" aria-label="Edit">
+                              <ion-icon name="pencil-sharp"></ion-icon>
+                            </a>
+                            <a href="javascript:;" class="text-danger" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                              title="" data-bs-original-title="Delete" aria-label="Delete">
+                              <ion-icon name="trash-sharp"></ion-icon>
+                            </a>
+                          </div>
+                        </td>
+                      </tr>
+                     
+                      
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+    
+          </div>
+         
+
+        </div>
+        <!--end row-->
+
+        <div class="row justify-content-center mt-5">
+          <div class="col-12 col-lg-12 col-xl-9 d-flex">
+            <div class="card radius-10 w-100">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <h6 class="transaction-header" style="color: #1e9481;">Withdrawals</h6>
+                  <div class="fs-5 ms-auto dropdown">
+                    <div class="arrow">
+                      <!-- <a href="#">
+                      <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </a> -->
+                    </div>
+                    <div class="dropdown-toggle dropdown-toggle-nocaret cursor-pointer" data-bs-toggle="dropdown"><i
+                        class="bi bi-three-dots"></i></div>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="table-responsive mt-2">
+                  <table class="table align-middle mb-0">
+                    <thead class="">
+                      <tr>
+                        <th>Date</th>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                       
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>#89742</td>
+                        <td>
+                          <div class="gap-3">
+                              <h6 class="product-name m-3">Smart Mobile Phone</h6>
+                          </div>
+                        </td>
+                       
+                        <td>$214</td>
+                        <td><span class="badge alert-success">Completed</span></td>
+                        
+                        <td>
+                          <div class="d-flex align-items-center gap-3 fs-6">
+                            <a href="javascript:;" class="text-primary" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                              title="" data-bs-original-title="View detail" aria-label="Views">
+                              <ion-icon name="eye-sharp"></ion-icon>
+                            </a>
+                            <a href="javascript:;" class="text-warning" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                              title="" data-bs-original-title="Edit info" aria-label="Edit">
+                              <ion-icon name="pencil-sharp"></ion-icon>
+                            </a>
+                            <a href="javascript:;" class="text-danger" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                              title="" data-bs-original-title="Delete" aria-label="Delete">
+                              <ion-icon name="trash-sharp"></ion-icon>
+                            </a>
+                          </div>
+                        </td>
+                      </tr>
+                    
+                      
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+    
+          </div>
+         
+
+        </div>
+        <!--end row-->
+
+
+      </div>
+      <!-- end page content-->
+    </div>
+    <!--end page content wrapper-->
+
+
+    <!--start footer-->
+    <footer class="footer">
+      <div class="footer-text">
+        Copyright © 2021. All right reserved.
+      </div>
+    </footer>
+    <!--end footer-->
+
+
+    <!--Start Back To Top Button-->
+    <a href="javaScript:;" class="back-to-top">
+      <ion-icon name="arrow-up-outline"></ion-icon>
+    </a>
+    <!--End Back To Top Button-->
+
+
+
+
+    <!--start overlay-->
+    <div class="overlay"></div>
+    <!--end overlay-->
+
+  </div>
+  <!--end wrapper-->
+
+
+  <!-- JS Files-->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <!--plugins-->
+  <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+  <script src="assets/plugins/chartjs/chart.min.js"></script>
+  <script src="assets/js/index.js"></script>
+  <!-- Main JS-->
+  <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,1071 @@
+<!doctype html>
+<html lang="en" class="light-theme">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--plugins-->
+  <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+
+  <!-- CSS Files -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open Sans:300,300i,400,400i,500,600,700,800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/vendor/font-awesome.min.css">
+
+  <link href="assets/css/header-colors.css" rel="stylesheet" />
+  <link href="assets/css/dashboard.css" rel="stylesheet" />
+
+  <title>APTIV Bank | Dashboard</title>
+</head>
+
+<body>
+
+
+  <!--start wrapper-->
+  <div class="wrapper">
+
+    <!--start sidebar wrapper-->
+    <div class="mini-sidebar-wrapper">
+
+      <ul>
+        <li><a href="Dashboard.html">My account</a></li>
+        <li><a href="investment.html">Investments</a></li>
+        <li><a href="wallet.html" class="actives">Wallet</a></li>
+        <li><a href="transaction.html">Transactions</a></li>
+      </ul>
+
+
+    </div>
+    <!--end sidebar wrapper-->
+
+
+
+    <!--start top header-->
+    <header class="top-header">
+      <nav class="navbar navbar-expand gap-3">
+        <div class="mobile-menu-button">
+          <ion-icon name="menu-sharp"></ion-icon>
+        </div>
+        <!-- navbar-area start  -->
+        <div class="row no-phone-display">
+          <div class="col-lg-1">
+            <!-- logo area start -->
+            <div class="brand-logo">
+              <a href="index.html">
+                <!-- <img src="assets/img/logo/logo.png" alt="brand logo"> -->
+                <b style="color: #006b38;font-size:1.2em;font-weight:900;">APTIV</b>
+              </a>
+            </div>
+            <!-- logo area end -->
+          </div>
+          <div class="col-lg-11">
+            <div class="main-menu-inner text-center">
+              <nav class="nav-menu">
+                <ul>
+                  <li><a href="Dashboard.html">My Account</a></li>
+                  <li><a href="investment.html">Investment</a></li>
+                  <li><a href="wallet.html" class="active">Wallet</a></li>
+                  <li><a href="transaction.html">Transactions</a></li>
+                </ul>
+              </nav>
+
+            </div>
+          </div>
+        </div>
+        <!-- navbar-area start  -->
+        <div class="top-navbar-right ms-auto">
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item dropdown dropdown-large">
+              <a class="setting nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                <div class="position-relative">
+                 
+                    <ion-icon name="settings"></ion-icon>
+                
+                </div>
+              </a>
+              <div class="dropdown-menu dropdown-menu-end">
+                <a href="javascript:;">
+                  <div class="msg-header">
+                    <p class="msg-header-title">Settings</p>
+                   </div>
+                </a>
+                <div class="header-notifications-list">
+                  <a class="dropdown-item" href="edit-profile.html">
+                    <div class="d-flex align-items-center">
+                      <div class="notify text-danger"><ion-icon name="person-outline"></ion-icon>
+                      </div>
+                      <div class="flex-grow-1">
+                        <h6 class="msg-name">Edit Profile</h6>
+                     
+                      </div>
+                    </div>
+                  </a>
+  
+                  <a class="dropdown-item" href="verify.html">
+                    <div class="d-flex align-items-center">
+                      <div class="notify text-success"><ion-icon name="document-outline"></ion-icon>
+                      </div>
+                      <div class="flex-grow-1">
+                        <h6 class="msg-name">Verify Account</h6>
+                      </div>
+                    </div>
+                  </a>
+                  
+                </div>
+              </div>
+            </li>
+  
+
+            <li class="nav-item dropdown dropdown-large">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                <div class="position-relative">
+                  <ion-icon name="notifications-sharp"></ion-icon>
+                </div>
+              </a>
+            
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="user-profile.html">
+                <div class="user-setting align-items-center">
+                  <img src="assets/images/avatars/06.png" class="user-img" alt="">
+                  <b style="margin-left: .5rem;">John Doe</b>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="/index.html" class="log-out">
+                <ion-icon name="log-out"></ion-icon>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+    </header>
+    <!--end top header-->
+
+
+
+    <!-- start page content wrapper-->
+    <div class="page-content-wrapper">
+      <!-- start page content-->
+      <div class="page-content">
+
+        <div class="wallet-card">
+
+
+
+
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="asset-value">
+                <h6>Estimated Assets Value</h6>
+                <p class="mt-3">00.00</p>
+              </div>
+
+
+              <div class="form-check m-3">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+                  Show all currencies
+                </label>
+              </div>
+            </div>
+            <!-- wallet-coins start -->
+            <div class="col-lg-4">
+              <div class="wallets">
+                <div class="wallets-head">
+                  <p>Wallets</p>
+                  <a href="#">Contact Support</a>
+                </div>
+
+                <!-- coin-start -->
+                <div class="wallet-coin">
+                  <div class="row">
+                    <div class="col-lg-1">
+                      <img src="assets/images/coins/bit.png" class="mt-2" alt="" width="20">
+                    </div>
+                    <div class="col-lg-8 ">
+                      <h6 class="coin-name mt-2"><b>Bitcoin</b> BTC</h6>
+                      <p class="coin-amount mt-1">0.00000000</p>
+                      <ul class="mt-2">
+                        <li class="deposit">Deposit</li>
+                        <li class="withdraw">Withdraw</li>
+                        <li class="swap">Swap</li>
+                        <li class="option" data-title="Transaction History"><i class="fa fa-ellipsis-v"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- coin-ends -->
+
+                <!-- coin-start -->
+                <div class="wallet-coin">
+                  <div class="row">
+                    <div class="col-lg-1">
+                      <img src="assets/images/coins/bit.png" class="mt-2" alt="" width="20">
+                    </div>
+                    <div class="col-lg-8 ">
+                      <h6 class="coin-name mt-2"><b>Bitcoin</b> BTC</h6>
+                      <p class="coin-amount mt-1">0.00000000</p>
+                      <ul class="mt-2">
+                        <li class="deposit">Deposit</li>
+                        <li class="withdraw">Withdraw</li>
+                        <li class="swap">Swap</li>
+                        <li class="option"><i class="fa fa-ellipsis-v"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- coin-ends -->
+
+                <!-- coin-start -->
+                <div class="wallet-coin">
+                  <div class="row">
+                    <div class="col-lg-1">
+                      <img src="assets/images/coins/bit.png" class="mt-2" alt="" width="20">
+                    </div>
+                    <div class="col-lg-8 ">
+                      <h6 class="coin-name mt-2"><b>Bitcoin</b> BTC</h6>
+                      <p class="coin-amount mt-1">0.00000000</p>
+                      <ul class="mt-2">
+                        <li class="deposit">Deposit</li>
+                        <li class="withdraw">Withdraw</li>
+                        <li class="swap">Swap</li>
+                        <li class="option"><i class="fa fa-ellipsis-v"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- coin-ends -->
+
+                <!-- coin-start -->
+                <div class="wallet-coin">
+                  <div class="row">
+                    <div class="col-lg-1">
+                      <img src="assets/images/coins/bit.png" class="mt-2" alt="" width="20">
+                    </div>
+                    <div class="col-lg-8 ">
+                      <h6 class="coin-name mt-2"><b>Bitcoin</b> BTC</h6>
+                      <p class="coin-amount mt-1">0.00000000</p>
+                      <ul class="mt-2">
+                        <li class="deposit">Deposit</li>
+                        <li class="withdraw">Withdraw</li>
+                        <li class="swap">Swap</li>
+                        <li class="option"><i class="fa fa-ellipsis-v"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- coin-ends -->
+
+                <!-- coin-start -->
+                <div class="wallet-coin">
+                  <div class="row">
+                    <div class="col-lg-1">
+                      <img src="assets/images/coins/bit.png" class="mt-2" alt="" width="20">
+                    </div>
+                    <div class="col-lg-8 ">
+                      <h6 class="coin-name mt-2"><b>Bitcoin</b> BTC</h6>
+                      <p class="coin-amount mt-1">0.00000000</p>
+                      <ul class="mt-2">
+                        <li class="deposit">Deposit</li>
+                        <li class="withdraw">Withdraw</li>
+                        <li class="swap">Swap</li>
+                        <li class="option"><i class="fa fa-ellipsis-v"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- coin-ends -->
+                <!-- coin-start -->
+                <div class="wallet-coin">
+                  <div class="row">
+                    <div class="col-lg-1">
+                      <img src="assets/images/coins/bit.png" class="mt-2" alt="" width="20">
+                    </div>
+                    <div class="col-lg-8 ">
+                      <h6 class="coin-name mt-2"><b>Bitcoin</b> BTC</h6>
+                      <p class="coin-amount mt-1">0.00000000</p>
+                      <ul class="mt-2">
+                        <li class="deposit">Deposit</li>
+                        <li class="withdraw">Withdraw</li>
+                        <li class="swap">Swap</li>
+                        <li class="option"><i class="fa fa-ellipsis-v"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- coin-ends -->
+                <!-- coin-start -->
+                <div class="wallet-coin">
+                  <div class="row">
+                    <div class="col-lg-1">
+                      <img src="assets/images/coins/bit.png" class="mt-2" alt="" width="20">
+                    </div>
+                    <div class="col-lg-8 ">
+                      <h6 class="coin-name mt-2"><b>Bitcoin</b> BTC</h6>
+                      <p class="coin-amount mt-1">0.00000000</p>
+                      <ul class="mt-2">
+                        <li class="deposit">Deposit</li>
+                        <li class="withdraw">Withdraw</li>
+                        <li class="swap">Swap</li>
+                        <li class="option"><i class="fa fa-ellipsis-v"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- coin-ends -->
+                <!-- coin-start -->
+                <div class="wallet-coin">
+                  <div class="row">
+                    <div class="col-lg-1">
+                      <img src="assets/images/coins/bit.png" class="mt-2" alt="" width="20">
+                    </div>
+                    <div class="col-lg-8 ">
+                      <h6 class="coin-name mt-2"><b>Bitcoin</b> BTC</h6>
+                      <p class="coin-amount mt-1">0.00000000</p>
+                      <ul class="mt-2">
+                        <li class="deposit">Deposit</li>
+                        <li class="withdraw">Withdraw</li>
+                        <li class="swap">Swap</li>
+                        <li class="option"><i class="fa fa-ellipsis-v"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- coin-ends -->
+
+
+
+
+              </div>
+            </div>
+            <div class="col-lg-6 walletmodals ">
+              <!-- deposit modal starts -->
+              <div class="deposit-modal">
+                <div class="modal-head">
+                  <h4>Deposit BTC</h4>
+                  <div class="close">
+                    <ion-icon name="close-outline"></ion-icon>
+                  </div>
+                </div>
+
+                <div class="modal-content">
+                  <h5>Network:</h5>
+                  <select class="form-select" id="validationDefault04" required>
+                    <option selected disabled value="">...</option>
+                    <option>
+                      <h6 class="coin-name "><b class="mr-2">BTC</b> Bitcoin</h6>
+                      <p class="coin-amount ">Min 0.00001 BTC</p>
+                    </option>
+                    <option>
+                      <h6 class="coin-name mt-2"><b class="mr-2">BSC</b>BNB Smart Chain (BEP20)</h6>
+                      <p class="coin-amount mt-1">Min 0.000035 BTC</p>
+                    </option>
+                  </select>
+
+                  <div class="notes mt-3">
+                    <h6>Notes:</h6>
+
+                    <p class="mb-2">
+                      <span class="info">
+                        <ion-icon name="information-outline"></ion-icon>
+                      </span>You have to deposit at least <b>0.0001 BTC</b> to be credited.
+                      Any deposit that is less than <b>0.0001</b> BTC will not be refunded
+                    </p>
+                    <p>
+                      <span class="info">
+                        <ion-icon name="information-outline"></ion-icon>
+                      </span>
+                      This deposit address only accepts <b>BTC</b>. Do not send other coins to it.
+                    </p>
+
+                  </div>
+
+                  <div class="deposit-address mt-4">
+                    <h6>Deposit Address:</h6>
+                    <div class="address">
+                      <span class="address-code">
+                        32GFUB8cKofTf9Xp8c7ZztHf3eeuxi9jem
+                      </span>
+                      <button href="" class="copy">Copy</button>
+                    </div>
+
+
+                  </div>
+
+                  <div class="trans">
+                    <button href="" class="transHist">Transactions History</button>
+                  </div>
+
+                </div>
+
+              </div>
+              <!-- deposit modal ends -->
+
+              <!-- withdraw modal starts -->
+              <div class="withdraw-modal">
+
+                <div class="modal-head">
+                  <h4>Withdraw BTC</h4>
+                  <div class="close">
+                    <ion-icon name="close-outline"></ion-icon>
+                  </div>
+                </div>
+
+                <div class="modal-content">
+                  <div class="card">
+                    <div class="card-body">
+                      <ul class="nav nav-tabs nav-primary" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" data-bs-toggle="tab" href="#coinWallet" role="tab"
+                            aria-selected="true">
+                            <div class="d-flex align-items-center">
+
+                              <div class="tab-title">Coin Wallet</div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" data-bs-toggle="tab" href="#username" role="tab" aria-selected="false">
+                            <div class="d-flex align-items-center">
+
+                              <div class="tab-title">Username</div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" data-bs-toggle="tab" href="#phoneNumber" role="tab" aria-selected="false">
+                            <div class="d-flex align-items-center">
+
+                              <div class="tab-title">Phone Number</div>
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+
+                      <div class="tab-content py-3">
+                        <div class="tab-pane fade show active" id="coinWallet" role="tabpanel">
+                          <div class="">
+                            <h5 class="mt-2">BTC Address:</h5>
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="BTC Address"
+                              required>
+                            <div class="valid-feedback">Looks good!</div>
+
+                            <!-- <div class="network">
+                              <p class="mt-3 mb-1"><b>Network:</b></p>
+                              <ul>
+                                <li class="networkStroke">OMNI</li>
+                                <li>BEP20</li>
+                              </ul>
+                            </div> -->
+
+                            <h6 class="mb-2 mt-3">Bitcoin Amount:</h6>
+                            <div class="input-group">
+                              <input type="text" class="form-control" placeholder="0.00"
+                                aria-label="Amount (to the nearest dollar)"> <span class="input-group-text">BTC</span>
+                            </div>
+                            <p class="mt-2 mb-2">BTC available amount: <b><span
+                                  style="color: #1e9481;">0.00000000</span> BTC</b></p>
+
+                            <div class="form-check">
+                              <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue"
+                                  checked>
+                                Save this address for future withdrawals
+                              </label>
+                            </div>
+
+                            <div class="notes mt-3">
+                              <h6>Notes:</h6>
+
+                              <p class="mb-2">
+                                <span class="info">
+                                  <ion-icon name="information-outline"></ion-icon>
+                                </span>The above fees are not fixed,
+                                can vary depending on the state of the blockchain networks
+                              </p>
+                              <p class="mb-2">
+                                <span class="info ">
+                                  <ion-icon name="information-outline"></ion-icon>
+                                </span>
+                                Estimated time to complete: 2 minutes
+                              </p>
+                              <p class="mb-2">
+                                <span class="info">
+                                  <ion-icon name="information-outline"></ion-icon>
+                                </span>
+                                Do not withdraw directly to a crowdfund or ICO.
+                                We will not credit your account with tokens from that sale.
+                              </p>
+
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+
+                          </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="username" role="tabpanel">
+                          <div>
+                            <h6>Username:</h6>
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="Input Username"
+                              required>
+
+
+                            <h6>Bitcoin Amount</h6>
+                            <div class="input-group mb-3">
+                              <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)"> <span
+                                class="input-group-text">BTC</span>
+                            </div>
+                            <p>BTC available amount: <b><span style="color:#137d6c;">0.00000000</span> BTC</b></p>
+
+                            <!-- <div class="message">
+                              <label for="validationCustom01" class="form-label mt-3"><b>Messsage:</b></label>
+                              <input type="text" class="form-control" id="validationCustom01" required>
+                            
+                            </div> -->
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+
+                          </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="phoneNumber" role="tabpanel">
+                          <div>
+                            <h6>Phone Number:</h6>
+                            <input type="tel" class="form-control" placeholder="+0000000000" required>
+
+
+
+                            <h6>Bitcoin Amount</h6>
+                            <div class="input-group mb-3">
+                              <input type="text" class="form-control"> <span class="input-group-text">BTC</span>
+                            </div>
+                            <p>BTC available amount: <b><span style="color:#137d6c;">0.00000000</span> BTC</b></p>
+
+
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+
+              </div>
+              <!-- withdraw modal ends -->
+
+              <!-- swap modal start -->
+              <div class="swap-modal">
+                <div class="modal-head">
+                  <h4>Swap</h4>
+                  <div class="close">
+                    <ion-icon name="close-outline"></ion-icon>
+                  </div>
+                </div>
+
+                <div class="modal-content">
+                  <div class="card">
+                    <div class="card-body">
+                      <ul class="nav nav-tabs nav-primary" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" data-bs-toggle="tab" href="#marketPrice" role="tab"
+                            aria-selected="true">
+                            <div class="d-flex align-items-center">
+
+                              <div class="tab-title">Market Price</div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" data-bs-toggle="tab" href="#yourPrice" role="tab" aria-selected="false">
+                            <div class="d-flex align-items-center">
+
+                              <div class="tab-title">Your Price</div>
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+
+                      <div class="tab-content py-3">
+                        <div class="tab-pane fade show active" id="marketPrice" role="tabpanel">
+                          <form action="">
+                            <div class="row align-items-center">
+                              <h6>Amount of <span class="coinName">BTC</span>*:</h6>
+                              <div class="col-lg-9">
+                                <div class="form-group">
+
+                                  <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                    placeholder="0.00">
+                                </div>
+                              </div>
+
+                              <div class="col-lg-3">
+                                <button type="button" class="btn btn-primary coinBtn" data-bs-toggle="modal" id="coinBtn"
+                                  data-bs-target="#coinListModal"><img src="assets/images/coins/bit.png"
+                                  width="20"
+                                    alt=""> BTC <i class="fa fa-chevron-right" style="font-size: .9rem;"></i></button>
+                              </div>
+                              
+                              <p class="mt-1"><span class="coinName"> BTC </span> available amount: <b><span style="color: #137d6c;">0.00000000</span>
+                                <span class="coinName"> BTC </span></b></p>
+
+                              <h6>Amount of <span class="coinName2">USDT</span>*:</h6>
+                              <div class="col-lg-9">
+                                <div class="form-group">
+                                  <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                    placeholder="0.00">
+                                </div>
+                              </div>
+                              <div class="col-lg-3">
+                                <button type="button" class="btn btn-primary coinBtn2" data-bs-toggle="modal" id="coinBtn2"
+                                  data-bs-target="#coinListModal2">
+                                  <img src="assets/images/coins/bit.png" width="20" alt=""> USDT  <i class="fa fa-chevron-right" style="font-size: .9rem;"></i>
+                                </button>
+                              </div>
+
+                              <p class="mt-2">1 <span class="coinName"> BTC </span> = <b><span style="color: #1e9481;">xxxxx.xx</span></b> <span class="coinName2"> USDT </span></p>
+                              <p class="mt-1 mb-3">Price Impact: <b><span style="color: #1e9481;">
+                                    < 0.01 </span></b></p>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Buy <span class="coinName2"> USDT </span></button>
+                          </form>
+                        </div>
+
+                        <div class="tab-pane fade" id="yourPrice" role="tabpanel">
+                          <form action="">
+                            <div class="row align-items-center">
+                              <h6>Amount of <span class="coinName">BTC</span>*:</h6>
+                              <div class="col-lg-9">
+                                <div class="form-group">
+
+                                  <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                    placeholder="0.00">
+                                </div>
+                              </div>
+                              <div class="col-lg-3">
+                                <button type="button" class="btn btn-primary coinBtn" data-bs-toggle="modal" id="coinBtnp"
+                                  data-bs-target="#coinListModal"><img src="assets/images/coins/bit.png"
+                                  width="20"
+                                    alt=""> BTC <i class="fa fa-chevron-right" style="font-size: .9rem;"></i></button>
+                              </div>
+
+                              <div class="col-lg-12">
+                                <div class="form-group">
+                                  <h6 for="">Price:</h6>
+                                  <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                    placeholder="0.00 USDT/BTC">
+                                </div>
+                              </div>
+
+                              <p class="mt-2">Current Market price: <b><span style="color:#137d6c;">0.00000000</span>
+                                <span class="coinName2"> USDT </span>/<span class="coinName"> BTC </span></b></p>
+
+                              <h6>Amount of <span class="coinName2">USDT</span>*:</h6>
+                              <div class="col-lg-9">
+                                <div class="form-group">
+                                  <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                    placeholder="0.00">
+                                </div>
+                              </div>
+                              <div class="col-lg-3">
+                                <button type="button" class="btn btn-primary coinBtn2" data-bs-toggle="modal" id="coinBtnp2"
+                                data-bs-target="#coinListModal2">
+                                <img src="assets/images/coins/bit.png" width="20" alt=""> USDT 
+                              </button>
+                              </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary mt-4">Buy <span class="coinName2"> USDT </span></button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              
+
+              </div>
+
+             
+              <!-- swap modal ends -->
+
+              <!-- option-modal start -->
+              <div class="option-modal mt-4">
+                <div class="modal-head">
+                  <h4>Transaction history</h4>
+                  <div class="close">
+                    <ion-icon name="close-outline"></ion-icon>
+                  </div>
+                </div>
+
+                <div class="modal-content">
+                  <div class="card">
+                    <div class="card-body">
+                      <ul class="nav nav-tabs nav-primary" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" data-bs-toggle="tab" href="#deposit" role="tab"
+                            aria-selected="true">
+                            <div class="d-flex align-items-center">
+
+                              <div class="tab-title">Deposit</div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" data-bs-toggle="tab" href="#withdrawal" role="tab" aria-selected="false">
+                            <div class="d-flex align-items-center">
+
+                              <div class="tab-title">Withdrawal</div>
+                            </div>
+                          </a>
+                        </li>
+                        <!-- <li class="nav-item" role="presentation">
+                          <a class="nav-link" data-bs-toggle="tab" href="changes" role="tab" aria-selected="false">
+                            <div class="d-flex align-items-center">
+
+                              <div class="tab-title">Changes</div>
+                            </div>
+                          </a>
+                        </li> -->
+                      </ul>
+                      <div class="tab-content py-3">
+                        <div class="tab-pane fade show active" id="deposit" role="tabpanel">
+                          <!-- table -->
+                          <div class="table-responsive mt-2">
+                            <table class="table align-middle mb-0">
+                              <thead class="">
+                                <tr>
+                                  <th>Date</th>
+                                  <th>Product</th>
+                                  <th>Price</th>
+                                  <th>Status</th>
+                                  <th>Action</th>
+
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>#89742</td>
+                                  <td>
+                                    <div class="gap-3">
+                                      <h6 class="product-name m-3">Smart Mobile Phone</h6>
+                                    </div>
+                                  </td>
+
+                                  <td>$214</td>
+                                  <td><span class="badge alert-success">Completed</span></td>
+
+                                  <td>
+                                    <div class="d-flex align-items-center gap-3 fs-6">
+                                      <a href="javascript:;" class="text-primary" data-bs-toggle="tooltip"
+                                        data-bs-placement="bottom" title="" data-bs-original-title="View detail"
+                                        aria-label="Views">
+                                        <ion-icon name="eye-sharp"></ion-icon>
+                                      </a>
+                                      <a href="javascript:;" class="text-warning" data-bs-toggle="tooltip"
+                                        data-bs-placement="bottom" title="" data-bs-original-title="Edit info"
+                                        aria-label="Edit">
+                                        <ion-icon name="pencil-sharp"></ion-icon>
+                                      </a>
+                                      <a href="javascript:;" class="text-danger" data-bs-toggle="tooltip"
+                                        data-bs-placement="bottom" title="" data-bs-original-title="Delete"
+                                        aria-label="Delete">
+                                        <ion-icon name="trash-sharp"></ion-icon>
+                                      </a>
+                                    </div>
+                                  </td>
+                                </tr>
+                                
+
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="withdrawal" role="tabpanel">
+                          <!-- table -->
+                          <div class="table-responsive mt-2">
+                            <table class="table align-middle mb-0">
+                              <thead class="">
+                                <tr>
+                                  <th>Date</th>
+                                  <th>Product</th>
+                                  <th>Price</th>
+                                  <th>Status</th>
+                                  <th>Action</th>
+
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>#89742</td>
+                                  <td>
+                                    <div class="gap-3">
+                                      <h6 class="product-name m-3">Smart Mobile Phone</h6>
+                                    </div>
+                                  </td>
+
+                                  <td>$214</td>
+                                  <td><span class="badge alert-success">Completed</span></td>
+
+                                  <td>
+                                    <div class="d-flex align-items-center gap-3 fs-6">
+                                      <a href="javascript:;" class="text-primary" data-bs-toggle="tooltip"
+                                        data-bs-placement="bottom" title="" data-bs-original-title="View detail"
+                                        aria-label="Views">
+                                        <ion-icon name="eye-sharp"></ion-icon>
+                                      </a>
+                                      <a href="javascript:;" class="text-warning" data-bs-toggle="tooltip"
+                                        data-bs-placement="bottom" title="" data-bs-original-title="Edit info"
+                                        aria-label="Edit">
+                                        <ion-icon name="pencil-sharp"></ion-icon>
+                                      </a>
+                                      <a href="javascript:;" class="text-danger" data-bs-toggle="tooltip"
+                                        data-bs-placement="bottom" title="" data-bs-original-title="Delete"
+                                        aria-label="Delete">
+                                        <ion-icon name="trash-sharp"></ion-icon>
+                                      </a>
+                                    </div>
+                                  </td>
+                                </tr>
+                                
+
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+
+                        <!-- <div class="tab-pane fade" id="changes" role="tabpanel">
+
+                        </div> -->
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+
+              </div>
+              <!-- option-modal ends -->
+
+            </div>
+
+            <!-- coinlists -->
+            <div class="coinlist-modal">
+              <!-- swap from  -->
+              <div class="col">
+                <!-- Modal -->
+                <div class="modal fade" id="coinListModal" tabindex="-1" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Swap From</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h6 class="mb-3"><b>Top coins:</b></h6>
+                        <ul>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> ADA</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> AVAX</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> AXS</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> BCH</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> BNB</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> BTC</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> BUSD</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> BUSD</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> CELO</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> DODGE</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> DOT</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> EOS</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> ETH</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> ETC</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> FIVE</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> FTM</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> KAI</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> LINK</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> LTC</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> LUNC</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> LUNA</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> MATIC</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> NEAR</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> NEO</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> PM</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> SHIB</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> SOL</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> TRX</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> UNI</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> USDC</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> USDT</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> XLM</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> XMR</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> XRP</li>
+                          <li class="choose-coin" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> XTZ</li>
+                        </ul>
+
+                        <!-- <div class="modal-footer">
+                          <h6 class="mb-3"><b>Fiat Currencies:</b></h6>
+                          <ul>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> GHSR</li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> INRR</li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> KESR</li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> MYRR</li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> NGNR</li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> PHPR</li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> PKRR</li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> TZSR</li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> VESR/li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> VNDR</li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> ZARR</li>
+                          </ul>
+                        </div> -->
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- swap to  -->
+              <div class="col">
+                <!-- Modal -->
+                <div class="modal fade" id="coinListModal2" tabindex="-1" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Swap To</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h6 class="mb-3"><b>Top coins:</b></h6>
+                        <ul>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> ADA</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> AVAX</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> AXS</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> BCH</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> BNB</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> BTC</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> BUSD</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> BUSD</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> CELO</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> DODGE</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> DOT</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> EOS</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> ETH</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> ETC</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> FIVE</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> FTM</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> KAI</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> LINK</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> LTC</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> LUNC</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> LUNA</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> MATIC</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> NEAR</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> NEO</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> PM</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> SHIB</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> SOL</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> TRX</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> UNI</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> USDC</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> USDT</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> XLM</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> XMR</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> XRP</li>
+                          <li class="choose-coin-to" data-bs-dismiss="modal"><img src="assets/images/coins/bit.png" width="20" alt=""> XTZ</li>
+                        </ul>
+
+                        <!-- <div class="modal-footer">
+                          <h6 class="mb-3"><b>Fiat Currencies:</b></h6>
+                          <ul>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> GHSR</li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> INRR</li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> KESR</li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> MYRR</li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> NGNR</li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> PHPR</li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> PKRR</li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> TZSR</li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> VESR/li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> VNDR</li>
+                            <li><img src="assets/images/coins/bit.png" width="20" alt=""> ZARR</li>
+                          </ul>
+                        </div> -->
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- coinlists -->
+
+
+
+          </div>
+
+
+        </div>
+        <!-- end page content-->
+      </div>
+      <!--end page content wrapper-->
+
+
+      <!--start footer-->
+      <footer class="footer">
+        <div class="footer-text">
+          Copyright © 2021. All right reserved.
+        </div>
+      </footer>
+      <!--end footer-->
+
+
+      <!--Start Back To Top Button-->
+      <a href="javaScript:;" class="back-to-top">
+        <ion-icon name="arrow-up-outline"></ion-icon>
+      </a>
+      <!--End Back To Top Button-->
+
+
+
+
+      <!--start overlay-->
+      <div class="overlay"></div>
+      <!--end overlay-->
+
+    </div>
+    <!--end wrapper-->
+
+
+    <!-- JS Files-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <!--plugins-->
+    <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+    <script src="assets/plugins/chartjs/chart.min.js"></script>
+    <script src="assets/js/index.js"></script>
+    <!-- Main JS-->
+    <script src="assets/js/wallet.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
