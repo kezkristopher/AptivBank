@@ -1,5 +1,6 @@
 
 
+
 .main-sections{
     padding: 0px;
     margin-left:0px;
@@ -628,7 +629,12 @@ text-align: center;
     }
 
     .summary-height{
-        height: 800px;
+        height: 900px;
+    }
+
+    .verification-card {
+        padding: 45px 45px;
+        background-color: #fff;
     }
   }
   
