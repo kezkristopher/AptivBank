@@ -1,6 +1,26 @@
 .wrapper {
     padding: 4rem 9rem;
     letter-spacing: 0px;
+    /* background-image: url("/Dashboard/assets/images/World_map_green.png");
+    background-position:center top;
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+
+
+
+.footer {
+
+    left: 0px;
+    
+}
+
+.welcome-bg{
+    background-image: url("/Dashboard/assets/images/50.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+
 }
 
 a{
@@ -674,7 +694,44 @@ padding-left: .8rem;
 }
 
 
+.traffic{
+    background-image: url("/Dashboard/assets/images/World_map_green2.png");
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ebf3ec;
+}
 
+.lev .list-group-item{
+    background-color: #00000000;
+}
+
+
+.levsection .card {
+    height: 0%;
+    width: 100%;
+}
+
+.levsection img{
+    /* width: 2px ; */
+}
+
+.levsection  .card:hover {
+    border: 1px solid #45a293;
+    cursor: pointer;
+}
+.level-price h6 {
+    /* text-align: center; */
+    margin-bottom: 0rem;
+    color: #2ea390;
+}
+
+.level-price p {
+    font-size: .9rem;
+    font-weight: 700;
+    /* margin-top:.3rem; */
+    color: rgb(36, 35, 35);
+}
 
 
 
@@ -687,6 +744,17 @@ padding-left: .8rem;
         z-index: 4;
     }
 
+    .welcome-card .welcome-image img{
+        /* display: none; */
+        width: 130px;
+       
+    }
+    .welcome-card .welcome-image{
+        /* display: none; */
+        position: absolute;
+        bottom: 0px;
+        left: 180px;
+    }
 
 
     .wrapper .page-content-wrapper {
